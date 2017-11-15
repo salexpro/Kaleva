@@ -1,0 +1,61 @@
+.contact{
+    background-image: url(../img/bg_contact.jpg);
+    background-position: center bottom;
+    background-size: cover;
+    color: $white;
+    &_inner{
+        width: 850px;
+        margin: auto;
+        background-color: rgba(#6a9cff, .8);
+        padding: 80px 15px 90px;
+    }
+    &_header{
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+        padding-bottom: 30px;
+        position: relative;
+        &::after{
+            content: '';
+            position: absolute;
+            left: calc(50% - 52px);
+            bottom: 0;
+            width: 104px;
+            height: 1px;
+            background-color: hsl(208, 100%, 49%);
+        }
+    }
+    &_descr{
+        font-size: 20px;
+        font-weight: 700;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 60px;
+    }
+    &_form{
+        width: 100%;
+        max-width: 500px;
+        margin: auto;
+        [type="text"],
+        [type="email"],
+        [type="tel"] {
+            background: none;
+            color: $white;
+            font-weight: 500;
+            &::placeholder{
+                color: $white;
+            }
+        }
+        .button{
+            width: 100%;
+        }
+    }
+    &_agree{
+        width: 100%;
+        max-width: 435px;
+        margin: auto;
+        margin-top: 40px;
+        font-size: 12px;
+        text-align: center;
+    }
+}

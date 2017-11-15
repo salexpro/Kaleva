@@ -1,0 +1,65 @@
+.reviews{
+    padding-top: 45px;
+    padding-bottom: 54px;
+    &_header{
+        @extend .advantages_header;
+        font-size: 36px;
+    }
+    &_descr{
+        @extend .advantages_descr;
+        font-size: 18px;
+    }
+    &_slider{
+        .owl{
+            &-dots {
+                bottom: 0;
+            }
+            &-dot{
+                border-color: $third-color;
+                &.active {
+                    background-color: $third-color;
+                }
+            }
+        }
+    }
+    &_review{
+        margin-top: 20px;
+        padding-bottom: 50px;
+        text-align: center;
+        &_img{
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            margin: auto;
+            margin-bottom: 15px;
+        }
+        &_name{
+            font-size: 36px;
+            font-weight: 700;
+            padding: 0 20px;
+        }
+        &_location{
+            font-size: 16px;
+            margin-bottom: 24px;
+            padding: 0 20px;
+        }
+        &_content{
+            max-width: 956px;
+            margin: auto;
+            padding: 0 20px;
+            line-height: 1.8;
+            &::before{
+                content: '';
+                display: block;
+                margin: auto;
+                width: 27px;
+                height: 20px;
+                margin-bottom: 15px;
+                background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAUCAYAAAB8gkaAAAAB2UlEQVRIS6VV0W0CMQyNRQZgBLoBbFA2gAlKJygoicRfyx9SjHQb9DoBbFCYgNugbFAGiOTKJ3IKIeE4NV8nnePnZ7/ngGg5WusPIcQ7ALxaa8u2+PC/1vqZiD4B4OycG0Pu8nK5HDjntkKIoY/pAuiLDPJXSTBjzJCIvoUQ/SD4DABja23Vxk4pxWxmUVxxA5YBqrgNRVGc7wHN5/O+lJKLbLrB8b4jV2D/AeKkKUZh6xswrqrX6x0BYBD2+RFGHJ+YUcOombn/MMZsiWgSzkhKOVqv16e2GbHqhBDcvvCsEJGV3JyamVJqAgCsvOYQ0XSz2ezagC73f6KO7BFxHN/1YA8Fp4CNMTP2UvRvjIj7G7AUqy5+UkrFhVaIOEoVBhlPsJfYV2ciOjjnypTsL+o9RonZHt6LByll6ecOWuvfyLypopKGTikwM+NaLAxGj4iAmTrnnkKGma4k07HguoBxkgUiFj6b1prlzrJvPUR06gQGADtr7dRnTnjzLmgnMCHElX86zKwuAjpWVyDiImDGr0Osxiw7ZpZaNckLADCKn5hH50ZEZb1BMlvgCjBn9NyzElVbP1HN1meGAPAWLWO+UxHR6t6evADOiegl3JG1AgG+nHMFW+YPBToa5P9YackAAAAASUVORK5CYII=);
+            }
+        }
+    }
+}

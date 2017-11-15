@@ -1,0 +1,92 @@
+.prices{
+    background-color: #ffe6dd;
+    padding: 50px 0;
+    &_header{
+        padding: 0 15px;
+        color: $primary-color;
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+    }
+    &_slider{
+        margin: 40px auto 70px;
+        .prices_item img{
+            width: auto;
+        }
+    }
+    &_item{
+        &_img{
+            margin-bottom: 10px;
+            img{
+                display: block;
+                margin: auto;
+            }
+        }
+        &_content{
+            &--balk{
+                float: right;
+                margin-top: -133px;
+            }
+            &--2{
+                margin-left: 40px;
+            }
+            &--3{
+                margin-left: 10px;
+            }
+        }
+        &_name{
+            font-size: 21px;
+            color: $dark-gray;
+            span{
+                display: block;
+                color: $primary-color;
+                font-size: 27px;
+            }
+        }
+        &_price{
+            color: $secondary-color;
+            *{
+                display: block;
+            }
+            s{
+                color: $primary-color;
+                font-size: 21px;
+            }
+            b{
+                font-size: 27px;
+            }
+            span{
+                font-size: 18px;
+                line-height: 1.19;
+            }
+        }
+    }
+    &_models{
+        display: flex;
+        justify-content: center;
+        &_item{
+            cursor: pointer;
+            padding: 23px 26px 19px;
+            border: 1px solid $primary-color;
+            border-left-width: 0;
+            color: $primary-color;
+            font-size: 18px;
+            line-height: 1;
+            transition: 200ms;
+            outline: none;            
+            &:focus{
+                background-color: rgba($white, .6);
+            }
+            &.active, &.active:focus {
+                background-color: $white;
+            }
+            &:first-child{
+                border-radius: 3px 0 0 3px;
+                border-left-width: 1px;
+            }
+            &:last-child{
+                border-radius: 0 3px 3px 0;
+            }
+        }
+    }
+}

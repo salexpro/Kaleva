@@ -1,0 +1,40 @@
+.installment{
+    background-color: #eaeaea;
+    padding: 150px 0;
+    background-image: url(../img/bg_installment.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 40% auto;
+    position: relative;
+    z-index: 2;
+    &_header{
+        color: $third-color;
+        font-size: 48px;
+        font-weight: 700;
+        margin-bottom: 15px;
+    }
+    &_content{
+        font-weight: 500;
+        font-size: 20px;
+        padding-top: 25px;
+        position: relative;
+        color: #575757;
+        &::before{
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100px;
+            height: 1px;
+            background-color: $third-color;
+        }
+        b{
+            color: $warning-color;
+            font-size: 24px;
+        }
+        .button{
+            margin-top: 25px;
+            display: table;
+        }
+    }
+}

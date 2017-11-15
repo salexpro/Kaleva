@@ -1,0 +1,92 @@
+@import '../../bower_components/owl.carousel/src/scss/owl.carousel.scss';
+
+.owl{
+    &-dots{
+        display: flex;
+        position: absolute;
+        left: 50%;
+        bottom: 35px;
+        transform: translateX(-50%);
+    }
+    &-dot{
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        border: 2px solid $primary-color;
+        transition: 300ms;
+        margin: 0 5px;
+        &.active{
+            background-color: $primary-color;
+        }
+    }
+}
+
+.slider{
+    &_item{
+        height: 760px;
+        background-size: cover;
+        &_content{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            height: 100%;
+            margin-left: 14%;
+            padding: 0 55px;
+            &--bg{
+                width: 575px;
+                background-color: rgba(#b4d5ff, .9);
+            }
+        }
+        &_logo{
+            width: 375px;
+            margin-bottom: 45px;
+        }
+        &_header{
+            color: $secondary-color;
+            font-size: 60px;
+            font-weight: 700;
+            text-transform: uppercase;
+            line-height: 1.2;
+            margin-bottom: 10px;
+            span{
+                display: block;
+                font-size: 36px;
+                font-weight: 500;
+                margin-bottom: 5px;
+            }
+        }
+        &_descr{
+            font-size: 20px;
+            color: $primary-color;
+            font-weight: 500;
+            margin-bottom: 30px;
+            position: relative;
+            padding-top: 28px;
+            line-height: 1.2;
+            &::before{
+                content: '';
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 63px;
+                height: 2px;
+                background-color: $primary-color;
+            }
+            b{
+                font-size: 24px;
+                color: $secondary-color;
+            }
+            p{
+                font-size: 30px;
+                color: $secondary-color;
+                line-height: 1.2;
+                margin: 0;
+                margin-top: 20px;
+                b{
+                    font-size: 36px;
+                }
+            }
+        }
+    }
+}

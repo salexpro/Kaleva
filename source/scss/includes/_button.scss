@@ -1,0 +1,32 @@
+.button{
+    white-space: nowrap;
+    outline: none;
+    transition: 300ms;
+    border: 1px solid #006cda;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    &.small{
+        padding-top: 17px;
+        padding-bottom: 17px;
+        img{
+            vertical-align: bottom;
+        }
+    }
+    &.hollow{
+        border-color: $primary-color;
+        color: $primary-color;
+        font-weight: 700;
+        border-radius: 0;
+        padding: 0.7em 1.7em 0.5em;
+        box-shadow: none;
+    }
+    &.button--red{
+        border-radius: 10px;
+        padding: 0.7em 1.7em 0.5em;
+        box-shadow: none;
+        border: 0;
+    }
+    img{
+        margin-right: 16px;
+        vertical-align: top;
+    }
+}

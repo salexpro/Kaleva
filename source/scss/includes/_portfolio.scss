@@ -1,0 +1,49 @@
+.portfolio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    &_item{
+        width: 25%;
+        height: 0;
+        padding: calc(12.5% / 1.122) 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        overflow: hidden;
+        &:nth-last-child(2){
+            justify-content: flex-start;
+        }
+        &--tall{
+            padding: calc(25% / 1.122) 0;
+            margin-bottom: -25%;
+            img{
+                min-height: calc(50vw / 1.122);
+            }
+        }
+        &--header{
+            flex-direction: column;
+            color: $primary-color;
+            font-size: 40px;
+            font-weight: 700;
+            text-align: center;
+            line-height: 1.1;
+            img{
+                width: 105px;
+                margin-bottom: 24px;
+            }
+        }
+        &--large{
+            width: 50%;
+            img{
+                max-width: 100%;
+            }
+        }
+        &_img{
+            max-width: none;
+            width: 100vw;
+            min-height: calc(25vw / 1.122);
+            max-height: 100%;
+        }
+    }
+}

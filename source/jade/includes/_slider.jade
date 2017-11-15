@@ -1,0 +1,20 @@
+mixin slide(header, descr, bg)
+    .slider_item(style='background-image:url(../img/slides/'+bg+'.jpg)')
+        .slider_item_content(class=(bg==1)?'slider_item_content--bg':'')
+            .slider_item_logo
+                img(src="../img/logo.svg", alt="")
+            .slider_item_header
+                !=header
+            .slider_item_descr
+                !=descr
+            a.button.large.hollow.button--hollow(href="#")
+                | Подробнее
+section.slider
+    .owl-carousel.slider_inner
+        +slide('Честная<br>Рассрочка', 'Нужны качественные окна, но не хотите отдавать за них всю сумму сразу? Воспользуйтесь нашей<br><b>рассрочкой без переплаты!</b>', '1')
+
+        +slide('<span>ТЕХНОЛОГИЯ</span>PRIVATE GLASS', 'Инновация от Kaleva - <b>Электронные шторы!</b><br>Закажите окна с опцией PRIVATE GLASS<br>и "закрывать шторы" Вы сможете простым нажатием на кнопку!', '2')
+
+        +slide('<span>РАСШИРЕННАЯ ГАРАНТИЯ</span>30 ЛЕТ', 'При установке окон <b>Kaleva</b> Вы имеете возможность<br><b>получить расширенную гарантию!</b><p>Мы уверены в своём качестве!</p>', '3')
+
+        +slide('<span>ПРОГРЕССИВНЫЕ<br>НЕДЕЛИ ОТ KALEVA</span>', 'Прогрессирующая скидка да <b>22%</b> на передовые модели<br>Kaleva. Инновационная опция VISIOGLASS в подарок.<p>Только до <b>31 октября.</b></p>', '4')
