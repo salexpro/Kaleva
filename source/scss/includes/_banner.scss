@@ -1,0 +1,46 @@
+.banner{
+    height: 470px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    &--large{
+        height: 545px;
+    }
+    $banners: accessories;
+    @each $banner in $banners{
+        &--#{$banner}{
+            background-image: url(../img/promo/#{$banner}.jpg)
+        }
+    }
+    &_inner{
+        height: 100%;
+        align-items: center;
+    }
+    &_header{
+        color: $secondary-color;
+        font-size: 55px;
+        font-weight: 700;
+        margin-bottom: 8px;
+    }
+    &_descr{
+        position: relative;
+        padding-top: 24px;
+        &::before{
+            @extend .slider_item_descr::before;
+        }
+    }
+    &_list{
+        color: $primary-color;
+        font-size: 20px;
+        font-weight: 500;
+        li{
+            display: flex;
+            line-height: 1.15;
+            margin: 5px 0;
+            &::before {
+                content: '-';
+                margin-right: 6px;
+            }
+        }
+    }
+}

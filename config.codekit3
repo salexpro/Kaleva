@@ -6351,6 +6351,138 @@
 		"oAP": "\/build\/fonts\/PFDinTextPro\/PFDinTextPro-Thin.woff2",
 		"oF": 0
 		},
+	"\/source\/img\/accessories\/child_lock.jpg": {
+		"ft": 16384,
+		"iS": 5259,
+		"oA": 0,
+		"oAP": "\/build\/img\/accessories\/child_lock.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/source\/img\/accessories\/fittings.jpg": {
+		"ft": 16384,
+		"iS": 13301,
+		"oA": 0,
+		"oAP": "\/build\/img\/accessories\/fittings.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/source\/img\/accessories\/glazed.jpg": {
+		"ft": 16384,
+		"iS": 8021,
+		"oA": 0,
+		"oAP": "\/build\/img\/accessories\/glazed.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/source\/img\/accessories\/jalousie.jpg": {
+		"ft": 16384,
+		"iS": 14664,
+		"oA": 0,
+		"oAP": "\/build\/img\/accessories\/jalousie.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/source\/img\/accessories\/meteoglass.jpg": {
+		"ft": 16384,
+		"iS": 6640,
+		"oA": 0,
+		"oAP": "\/build\/img\/accessories\/meteoglass.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/source\/img\/accessories\/mosquito.jpg": {
+		"ft": 16384,
+		"iS": 11894,
+		"oA": 0,
+		"oAP": "\/build\/img\/accessories\/mosquito.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/source\/img\/accessories\/outflow.jpg": {
+		"ft": 16384,
+		"iS": 5352,
+		"oA": 0,
+		"oAP": "\/build\/img\/accessories\/outflow.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/source\/img\/accessories\/roller.jpg": {
+		"ft": 16384,
+		"iS": 16154,
+		"oA": 0,
+		"oAP": "\/build\/img\/accessories\/roller.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/source\/img\/accessories\/sealing.jpg": {
+		"ft": 16384,
+		"iS": 14077,
+		"oA": 0,
+		"oAP": "\/build\/img\/accessories\/sealing.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/source\/img\/accessories\/shutters.jpg": {
+		"ft": 16384,
+		"iS": 8923,
+		"oA": 0,
+		"oAP": "\/build\/img\/accessories\/shutters.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/source\/img\/accessories\/slope.png": {
+		"ft": 32768,
+		"iS": 10445,
+		"oA": 0,
+		"oAP": "\/build\/img\/accessories\/slope.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/source\/img\/accessories\/visioglass.jpg": {
+		"ft": 16384,
+		"iS": 23834,
+		"oA": 0,
+		"oAP": "\/build\/img\/accessories\/visioglass.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/source\/img\/accessories\/windowsill.png": {
+		"ft": 32768,
+		"iS": 12753,
+		"oA": 0,
+		"oAP": "\/build\/img\/accessories\/windowsill.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/source\/img\/advantages\/clock.svg": {
 		"ft": 2097152,
 		"miP": 1,
@@ -6511,6 +6643,16 @@
 		"iS": 400650,
 		"oA": 0,
 		"oAP": "\/build\/img\/portfolio\/6.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/source\/img\/promo\/accessories.jpg": {
+		"ft": 16384,
+		"iS": 241261,
+		"oA": 0,
+		"oAP": "\/build\/img\/promo\/accessories.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -6731,132 +6873,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/source\/jade\/includes\/_advantages.jade": {
-		"cB": 1,
-		"cOD": 1,
-		"ft": 512,
-		"oA": 1,
-		"oAP": "\/build\/_advantages.html",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/source\/jade\/includes\/_contact.jade": {
-		"cB": 1,
-		"cOD": 1,
-		"ft": 512,
-		"oA": 1,
-		"oAP": "\/build\/_contact.html",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/source\/jade\/includes\/_footer.jade": {
-		"cB": 1,
-		"cOD": 1,
-		"ft": 512,
-		"oA": 1,
-		"oAP": "\/build\/_footer.html",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/source\/jade\/includes\/_head.jade": {
-		"cB": 1,
-		"cOD": 1,
-		"ft": 512,
-		"oA": 1,
-		"oAP": "\/build\/_head.html",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/source\/jade\/includes\/_header.jade": {
-		"cB": 1,
-		"cOD": 1,
-		"ft": 512,
-		"oA": 1,
-		"oAP": "\/build\/_header.html",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/source\/jade\/includes\/_installment.jade": {
-		"cB": 1,
-		"cOD": 1,
-		"ft": 512,
-		"oA": 1,
-		"oAP": "\/build\/_installment.html",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/source\/jade\/includes\/_nav.jade": {
-		"cB": 1,
-		"cOD": 1,
-		"ft": 512,
-		"oA": 1,
-		"oAP": "\/build\/_nav.html",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/source\/jade\/includes\/_portfolio.jade": {
-		"cB": 1,
-		"cOD": 1,
-		"ft": 512,
-		"oA": 1,
-		"oAP": "\/build\/_portfolio.html",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/source\/jade\/includes\/_prices.jade": {
-		"cB": 1,
-		"cOD": 1,
-		"ft": 512,
-		"oA": 1,
-		"oAP": "\/build\/_prices.html",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/source\/jade\/includes\/_reviews.jade": {
-		"cB": 1,
-		"cOD": 1,
-		"ft": 512,
-		"oA": 1,
-		"oAP": "\/build\/_reviews.html",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/source\/jade\/includes\/_scheme.jade": {
-		"cB": 1,
-		"cOD": 1,
-		"ft": 512,
-		"oA": 1,
-		"oAP": "\/build\/_scheme.html",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/source\/jade\/includes\/_services.jade": {
-		"cB": 1,
-		"cOD": 1,
-		"ft": 512,
-		"oA": 1,
-		"oAP": "\/build\/_services.html",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/source\/jade\/includes\/_slider.jade": {
-		"cB": 1,
-		"cOD": 1,
-		"ft": 512,
-		"oA": 1,
-		"oAP": "\/build\/_slider.html",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/source\/jade\/index.jade": {
-		"cB": 1,
-		"cOD": 1,
-		"ft": 512,
-		"oA": 0,
-		"oAP": "\/build\/index.html",
-		"oF": 0,
-		"oS": 0
-		},
 	"\/source\/js\/app.js": {
 		"ft": 64,
 		"ma": 1,
@@ -6873,6 +6889,159 @@
 		"oAP": "\/build\/js\/prices.json",
 		"oF": 0,
 		"oO": 0,
+		"oS": 0
+		},
+	"\/source\/pug\/accessories.pug": {
+		"cB": 1,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/build\/accessories.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/source\/pug\/includes\/_accessories.pug": {
+		"cB": 1,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/build\/_accessories.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/source\/pug\/includes\/_advantages.pug": {
+		"cB": 1,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/build\/_advantages.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/source\/pug\/includes\/_banner.pug": {
+		"cB": 1,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/build\/_banner.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/source\/pug\/includes\/_contact.pug": {
+		"cB": 1,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/build\/_contact.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/source\/pug\/includes\/_footer.pug": {
+		"cB": 1,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/build\/_footer.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/source\/pug\/includes\/_head.pug": {
+		"cB": 1,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/build\/_head.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/source\/pug\/includes\/_header.pug": {
+		"cB": 1,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/build\/_header.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/source\/pug\/includes\/_installment.pug": {
+		"cB": 1,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/build\/_installment.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/source\/pug\/includes\/_nav.pug": {
+		"cB": 1,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/build\/_nav.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/source\/pug\/includes\/_portfolio.pug": {
+		"cB": 1,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/build\/_portfolio.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/source\/pug\/includes\/_prices.pug": {
+		"cB": 1,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/build\/_prices.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/source\/pug\/includes\/_reviews.pug": {
+		"cB": 1,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/build\/_reviews.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/source\/pug\/includes\/_scheme.pug": {
+		"cB": 1,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/build\/_scheme.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/source\/pug\/includes\/_services.pug": {
+		"cB": 1,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/build\/_services.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/source\/pug\/includes\/_slider.pug": {
+		"cB": 1,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/build\/_slider.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/source\/pug\/index.pug": {
+		"cB": 1,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/build\/index.html",
+		"oF": 0,
 		"oS": 0
 		},
 	"\/source\/scss\/_settings.scss": {
@@ -6901,6 +7070,19 @@
 		"oS": 3,
 		"uL": 1
 		},
+	"\/source\/scss\/includes\/_accessories.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/build\/scss\/css\/_accessories.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/source\/scss\/includes\/_advantages.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -6910,6 +7092,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/build\/scss\/css\/_advantages.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/source\/scss\/includes\/_banner.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/build\/scss\/css\/_banner.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
