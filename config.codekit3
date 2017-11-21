@@ -6587,6 +6587,106 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/source\/img\/manufacture\/1.jpg": {
+		"ft": 16384,
+		"iS": 358293,
+		"oA": 0,
+		"oAP": "\/build\/img\/manufacture\/1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/source\/img\/manufacture\/10.jpg": {
+		"ft": 16384,
+		"iS": 718519,
+		"oA": 0,
+		"oAP": "\/build\/img\/manufacture\/10.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/source\/img\/manufacture\/2.jpg": {
+		"ft": 16384,
+		"iS": 379965,
+		"oA": 0,
+		"oAP": "\/build\/img\/manufacture\/2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/source\/img\/manufacture\/3.jpg": {
+		"ft": 16384,
+		"iS": 377013,
+		"oA": 0,
+		"oAP": "\/build\/img\/manufacture\/3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/source\/img\/manufacture\/4.jpg": {
+		"ft": 16384,
+		"iS": 591645,
+		"oA": 0,
+		"oAP": "\/build\/img\/manufacture\/4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/source\/img\/manufacture\/5.jpg": {
+		"ft": 16384,
+		"iS": 538546,
+		"oA": 0,
+		"oAP": "\/build\/img\/manufacture\/5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/source\/img\/manufacture\/6.jpg": {
+		"ft": 16384,
+		"iS": 426677,
+		"oA": 0,
+		"oAP": "\/build\/img\/manufacture\/6.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/source\/img\/manufacture\/7.jpg": {
+		"ft": 16384,
+		"iS": 498589,
+		"oA": 0,
+		"oAP": "\/build\/img\/manufacture\/7.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/source\/img\/manufacture\/8.jpg": {
+		"ft": 16384,
+		"iS": 472616,
+		"oA": 0,
+		"oAP": "\/build\/img\/manufacture\/8.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/source\/img\/manufacture\/9.jpg": {
+		"ft": 16384,
+		"iS": 468947,
+		"oA": 0,
+		"oAP": "\/build\/img\/manufacture\/9.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/source\/img\/phone.png": {
 		"ft": 32768,
 		"iS": 3642,
@@ -6653,6 +6753,16 @@
 		"iS": 241261,
 		"oA": 0,
 		"oAP": "\/build\/img\/promo\/accessories.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/source\/img\/promo\/manufacture.jpg": {
+		"ft": 16384,
+		"iS": 5808618,
+		"oA": 0,
+		"oAP": "\/build\/img\/promo\/manufacture.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -6972,6 +7082,15 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/source\/pug\/includes\/_manufacture.pug": {
+		"cB": 1,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/build\/_manufacture.html",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/source\/pug\/includes\/_nav.pug": {
 		"cB": 1,
 		"cOD": 1,
@@ -7041,6 +7160,15 @@
 		"ft": 512,
 		"oA": 0,
 		"oAP": "\/build\/index.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/source\/pug\/manufacture.pug": {
+		"cB": 1,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/build\/manufacture.html",
 		"oF": 0,
 		"oS": 0
 		},
@@ -7183,6 +7311,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/build\/scss\/css\/_layout.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/source\/scss\/includes\/_manufacture.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/build\/scss\/css\/_manufacture.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
