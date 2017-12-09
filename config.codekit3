@@ -7172,6 +7172,15 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/source\/pug\/reviews.pug": {
+		"cB": 1,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/build\/reviews.html",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/source\/scss\/_settings.scss": {
 		"aP": 1,
 		"bl": 0,

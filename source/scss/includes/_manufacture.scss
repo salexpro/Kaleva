@@ -28,6 +28,10 @@
                 &_img {
                     margin: 0;
                     margin-right: -64px;
+                    .advantages_advantage_content--manufacture{
+                        right: auto;
+                        left: 14%;
+                    }
                 }
                 &_content{
                     text-align: left;
@@ -42,9 +46,9 @@
             display: flex;
             justify-content: center;
             margin-left: -64px;
+            position: relative;
             img{
                 max-width: none;
-                // height: 100%;
             }
         }
         &_content{
@@ -56,6 +60,7 @@
             font-size: 16px;
             font-weight: 500;
             text-align: right;
+            z-index: 2;
         }
         &_header{
             font-size: 28px;

@@ -6,6 +6,27 @@ mixin item(header, content, img, is_large)
             .manufacture_item_text(class=is_large?'manufacture_item_text--large':'')
                 !=content
         .manufacture_item_img
+            .advantages_advantage_content.advantages_advantage_content--manufacture
+                .advantages_advantage_content_item.advantages_advantage_content_item--default
+                    | Преимущество
+                    br
+                    | №1
+                .advantages_advantage_content_item.advantages_advantage_content_item--active
+                    b Преимущество №1
+                    p
+                        | Нашей компании - 21 год!
+                        br
+                        | Далеко не каждая оконная
+                        br
+                        | фирма может похвастаться
+                        br
+                        | таким солидным стажем!
+                        br
+                        | А от него - очень
+                        br
+                        | многое зависит!
+                    a(href="#")
+                        | Узнать преимущество №2
             img(src='../img/manufacture/' + img + '.jpg' alt=header)
 section.manufacture
     .manufacture_header
