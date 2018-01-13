@@ -1,0 +1,30 @@
+mixin people(img, name, location)
+    .column.large-3.revpeople_item
+        .revpeople_item_img
+            img(src="./img/reviews/" + img + ".png", alt="")
+        .revpeople_item_name
+            =name
+        .revpeople_item_location
+            =location
+        .revpeople_item_stars
+            .revpeople_stars_inner(style="width:100%")
+        a.button.hollow.tiny.round(href="#")
+            | Читать отзыв
+section.revpeople
+    .revpeople_header
+        | Отзывы
+        | 
+        span о нашей
+        | 
+        | работе
+    .row.revpeople_inner
+        +people('gena', 'Геннадий', 'Химки, ул. 9 мая')
+        +people('alina', 'Алина', 'Лобня, Катюшки')
+        +people('philip', 'Филипп', 'Химки, ул. 9 мая')
+        +people('valentina', 'Валентина', 'г. Солнечногорск, ул. Лесная')
+        +people('oleg_gde_maket', 'Олег', 'Зеленоград')
+        +people('galina', 'Галина', 'Зеленоград')
+        +people('aslan', 'Аслан', 'Долгопрудный, мкрн. Хлебниково')
+        +people('vera', 'Вера Павловна', 'Долгопрудный, ул. Спортивная')
+    a.revpeople_more(href="#")
+        | Больше отзывов

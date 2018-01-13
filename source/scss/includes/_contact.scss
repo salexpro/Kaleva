@@ -3,6 +3,42 @@
     background-position: center bottom;
     background-size: cover;
     color: $white;
+    &--clear{
+        background: $white;
+        color: $black;
+        .contact{
+            &_inner{
+                background: none;
+            }
+            &_header{
+                font-weight: 500;
+                &::after{
+                    background-image: linear-gradient(to right, #00f0ff 0%, #ffadff 100%);
+                }
+            }
+            &_descr{
+                font-weight: 400;
+            }
+            &_form{
+                [type="text"],
+                [type="email"],
+                [type="tel"] {
+                    color: $black;
+                    font-weight: 400;
+                    &::placeholder{
+                        color: $descr-gray;
+                    }
+                }
+                .button{
+                    text-transform: uppercase;
+                    font-weight: 700;
+                }
+            }
+            &_agree{
+                display: none;
+            }
+        }
+    }
     &_inner{
         width: 850px;
         margin: auto;

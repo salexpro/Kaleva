@@ -1,4 +1,4 @@
-section.contact
+section.contact(class=banner ? "contact--clear" : "")
     .contact_inner
         .contact_header
             | Свяжитесь с нами. Давайте работать вместе!
@@ -7,10 +7,10 @@ section.contact
             br
             | с вами в ближайшее время
         form.contact_form(action="")
-            input(type="text" placeholder="Представьтесь, пожалуйста:")
-            input(type="email" placeholder="Укажите Ваш e-mail:")
-            input(type="tel" placeholder="Ваш телефон:")
-            input(type="text" placeholder="Что Вас интересует:")
+            input(type="text" placeholder="Представьтесь, пожалуйста")
+            input(type="email" placeholder="Укажите Ваш e-mail")
+            input(type="tel" placeholder="Ваш телефон")
+            input(type="text" placeholder="Что Вас интересует")
             button.button(type="submit")
                 img(src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAOCAYAAAD0f5bSAAAArUlEQVQoU5WRURGCQBRFz61iBYmgETSCRNAIVtAIEsEKWoEKRLjOc3YZQBB4n7tz9p17V6wY2xvgqhUMtp/AezFk+wwcJBWLoKT1AkpJ1VIotGpJZcSZhZLWCSgkNbPQUCuX9neT7QfQZK0Wsh2rq7w6X6TzaKzV6kLx2hbYS6rjYkqrp2f7BuwymLSQdBz7/DZTail07kBu67t5OL0iOuBFUsCj89Ne5MnZpqAPk0dRO05X6eMAAAAASUVORK5CYII=", alt="")
                 | Оставить заявку

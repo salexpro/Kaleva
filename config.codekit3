@@ -6566,6 +6566,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/source\/img\/download.png": {
+		"ft": 32768,
+		"iS": 1383,
+		"oA": 0,
+		"oAP": "\/build\/img\/download.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/source\/img\/logo.svg": {
 		"ft": 2097152,
 		"miP": 1,
@@ -6768,6 +6779,82 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/source\/img\/promo\/reviews.jpg": {
+		"ft": 16384,
+		"iS": 2113618,
+		"oA": 0,
+		"oAP": "\/build\/img\/promo\/reviews.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/source\/img\/reviews\/alina.png": {
+		"ft": 32768,
+		"iS": 40229,
+		"oA": 0,
+		"oAP": "\/build\/img\/reviews\/alina.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/source\/img\/reviews\/aslan.png": {
+		"ft": 32768,
+		"iS": 39991,
+		"oA": 0,
+		"oAP": "\/build\/img\/reviews\/aslan.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/source\/img\/reviews\/galina.png": {
+		"ft": 32768,
+		"iS": 39019,
+		"oA": 0,
+		"oAP": "\/build\/img\/reviews\/galina.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/source\/img\/reviews\/gena.png": {
+		"ft": 32768,
+		"iS": 32615,
+		"oA": 0,
+		"oAP": "\/build\/img\/reviews\/gena.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/source\/img\/reviews\/oleg_gde_maket.png": {
+		"ft": 32768,
+		"iS": 32608,
+		"oA": 0,
+		"oAP": "\/build\/img\/reviews\/oleg_gde_maket.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/source\/img\/reviews\/philip.png": {
+		"ft": 32768,
+		"iS": 37197,
+		"oA": 0,
+		"oAP": "\/build\/img\/reviews\/philip.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/source\/img\/reviews\/tatyana.jpg": {
 		"ft": 16384,
 		"iS": 82678,
@@ -6776,6 +6863,28 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"\/source\/img\/reviews\/valentina.png": {
+		"ft": 32768,
+		"iS": 35204,
+		"oA": 0,
+		"oAP": "\/build\/img\/reviews\/valentina.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/source\/img\/reviews\/vera.png": {
+		"ft": 32768,
+		"iS": 36764,
+		"oA": 0,
+		"oAP": "\/build\/img\/reviews\/vera.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/source\/img\/scheme\/crop.svg": {
@@ -6946,6 +7055,17 @@
 		"iS": 10514,
 		"oA": 0,
 		"oAP": "\/build\/img\/social\/vk.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/source\/img\/stars.png": {
+		"ft": 32768,
+		"iS": 17099,
+		"oA": 0,
+		"oAP": "\/build\/img\/stars.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -7124,6 +7244,15 @@
 		"ft": 512,
 		"oA": 1,
 		"oAP": "\/build\/_reviews.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/source\/pug\/includes\/_reviews_people.pug": {
+		"cB": 1,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/build\/_reviews_people.html",
 		"oF": 0,
 		"oS": 0
 		},

@@ -63,3 +63,65 @@
         }
     }
 }
+
+.revpeople{
+    padding-bottom: 40px;
+    padding-top: 45px;
+    background-color: #f6f7fc;
+    &_header{
+        font-size: 30px;
+        text-align: center;
+        font-weight: 500;
+        color: $primary-color;
+        margin-bottom: 40px;
+        span{
+            color: $secondary-color;
+        }
+    }
+    &_item{
+        text-align: center;
+        color: $primary-color;
+        font-weight: 500;
+        margin-bottom: 55px;
+        &_img{
+            width: 136px;
+            height: 136px;
+            border-radius: 50%;
+            margin: auto;
+            margin-bottom: 12px;
+        }
+        &_name{
+            font-size: 20px;
+        }
+        &_location{
+            font-size: 13px;
+        }
+        &_stars{
+            width: 62px;
+            height: 12px;
+            margin: 10px auto 14px;
+            background-image: url(../img/stars.png);
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    }
+    &_more{
+        font-size: 24px;
+        font-weight: 500;
+        color: $primary-color;
+        display: table;
+        margin: auto;
+        margin-top: 25px;
+        &:after{
+            content: '';
+            display: block;
+            width: 26px;
+            height: 26px;
+            background-image: url(../img/download.png);
+            background-size: contain;
+            margin: auto;
+            margin-top: 15px;
+        }
+    }
+}

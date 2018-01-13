@@ -1,7 +1,13 @@
-.banner(class=(page)?'banner--'+page:'')
+.banner(class=page?'banner--'+page:'' class=banner?'banner--large':'')
     .row.banner_inner
         .column
+            if banner
+                .banner_logo
+                    img(src="../img/logo.svg", alt="")
             .banner_header
                 !=header
             .banner_descr
                 !=descr
+            if banner
+                .button.hollow.large
+                    =button

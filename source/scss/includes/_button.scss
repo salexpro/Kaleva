@@ -18,12 +18,18 @@
         border-radius: 0;
         padding: 0.7em 1.7em 0.5em;
         box-shadow: none;
+        &.tiny{
+            border-width: 1px;
+        }
     }
     &.button--red{
         border-radius: 10px;
         padding: 0.7em 1.7em 0.5em;
         box-shadow: none;
         border: 0;
+    }
+    &.round{
+        border-radius: 20px;
     }
     img{
         margin-right: 16px;

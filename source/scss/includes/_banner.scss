@@ -14,9 +14,28 @@
         background: rgba($white, .5);
     }
     &--large{
-        height: 545px;
+        height: 525px;
+        text-align: center;
+        box-shadow: 1px 2px 9px rgba(0, 0, 0, 0.3);
+        &::after{
+            background: rgba($white, .7);
+        }
+        .banner{
+            &_header{
+                font-size: 60px;
+                margin-bottom: 22px;
+            }
+            &_descr{
+                margin-bottom: 33px;
+                font-size: 24px;
+                padding-top: 34px;
+                &::before{
+                    left: calc(50% - 31px);
+                }
+            }
+        }
     }
-    $banners: accessories, manufacture;
+    $banners: accessories, manufacture, reviews;
     @each $banner in $banners{
         &--#{$banner}{
             background-image: url(../img/promo/#{$banner}.jpg)
@@ -27,6 +46,11 @@
         height: 100%;
         align-items: center;
         z-index: 2;
+    }
+    &_logo{
+        width: 256px;
+        margin: auto;
+        margin-bottom: 30px;
     }
     &_header{
         color: $secondary-color;
