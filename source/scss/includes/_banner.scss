@@ -17,6 +17,7 @@
         height: 525px;
         text-align: center;
         box-shadow: 1px 2px 9px rgba(0, 0, 0, 0.3);
+        z-index: 1;
         &::after{
             background: rgba($white, .7);
         }

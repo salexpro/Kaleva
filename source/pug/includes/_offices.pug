@@ -1,0 +1,38 @@
+section.offices
+    ul.menu.offices_items
+        li.offices_item
+            a.is_active(href="#")
+                | Офис в Зеленограде
+        li.offices_item
+            a(href="#")
+                | Офис в Долгопрудном
+        li.offices_item
+            a(href="#")
+                | Офис в Лобне
+        li.offices_item
+            a(href="#")
+                | Мобильный офис
+    .offices_map
+        .row.offices_map_inner
+            .offices_map_overlay
+                .offices_map_info
+                    .offices_map_header
+                        | Адрес офиса:
+                    | г. Зеленоград, 16 микрорайон, корп. 1649, вход напротив автобусной остановки (остановка "Пенсионный фонд").
+                .offices_map_header
+                    | Телефон:
+                    br
+                    a(href="tel:+74993229772")
+                        | +7 (499) 322-97-72
+                .offices_map_info
+                    .offices_map_header
+                        | Вемя работы:            
+                    | Понедельник-пятница:
+                    br
+                    | 10.00 - 19.00 (без перерыва на обед)
+                    br
+                    | Суббота:
+                    br
+                    | 10.00 - 18.00 (без перерыва на обед)
+        .offices_map_frame
+            iframe(src='https://yandex.ua/map-widget/v1/?um=constructor%3Ad80cd645d534a36a854c7f609801343e0a5721292d22c1a42249396173d6bb9d&source=constructor', frameborder='0')

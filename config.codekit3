@@ -6605,7 +6605,7 @@
 		"oAP": "\/build\/img\/manufacture\/1.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/source\/img\/manufacture\/10.jpg": {
@@ -6615,7 +6615,7 @@
 		"oAP": "\/build\/img\/manufacture\/10.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/source\/img\/manufacture\/2.jpg": {
@@ -6625,7 +6625,7 @@
 		"oAP": "\/build\/img\/manufacture\/2.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/source\/img\/manufacture\/3.jpg": {
@@ -6635,7 +6635,7 @@
 		"oAP": "\/build\/img\/manufacture\/3.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/source\/img\/manufacture\/4.jpg": {
@@ -6645,7 +6645,7 @@
 		"oAP": "\/build\/img\/manufacture\/4.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/source\/img\/manufacture\/5.jpg": {
@@ -6655,7 +6655,7 @@
 		"oAP": "\/build\/img\/manufacture\/5.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/source\/img\/manufacture\/6.jpg": {
@@ -6665,7 +6665,7 @@
 		"oAP": "\/build\/img\/manufacture\/6.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/source\/img\/manufacture\/7.jpg": {
@@ -6675,7 +6675,7 @@
 		"oAP": "\/build\/img\/manufacture\/7.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/source\/img\/manufacture\/8.jpg": {
@@ -6685,7 +6685,7 @@
 		"oAP": "\/build\/img\/manufacture\/8.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/source\/img\/manufacture\/9.jpg": {
@@ -6695,7 +6695,7 @@
 		"oAP": "\/build\/img\/manufacture\/9.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/source\/img\/phone.png": {
@@ -6796,7 +6796,7 @@
 		"oAP": "\/build\/img\/reviews\/alina.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -6807,7 +6807,7 @@
 		"oAP": "\/build\/img\/reviews\/aslan.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -6818,7 +6818,7 @@
 		"oAP": "\/build\/img\/reviews\/galina.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -6829,7 +6829,7 @@
 		"oAP": "\/build\/img\/reviews\/gena.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -6840,7 +6840,7 @@
 		"oAP": "\/build\/img\/reviews\/oleg_gde_maket.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -6851,7 +6851,7 @@
 		"oAP": "\/build\/img\/reviews\/philip.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -6872,7 +6872,7 @@
 		"oAP": "\/build\/img\/reviews\/valentina.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -6883,7 +6883,7 @@
 		"oAP": "\/build\/img\/reviews\/vera.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -7115,9 +7115,9 @@
 		},
 	"\/source\/js\/prices.json": {
 		"ft": 524288,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/build\/js\/prices.json",
-		"oF": 0,
+		"oF": 1,
 		"oO": 0,
 		"oS": 0
 		},
@@ -7127,6 +7127,15 @@
 		"ft": 512,
 		"oA": 0,
 		"oAP": "\/build\/accessories.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/source\/pug\/contacts.pug": {
+		"cB": 1,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/build\/contacts.html",
 		"oF": 0,
 		"oS": 0
 		},
@@ -7217,6 +7226,15 @@
 		"ft": 512,
 		"oA": 1,
 		"oAP": "\/build\/_nav.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/source\/pug\/includes\/_offices.pug": {
+		"cB": 1,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/build\/_offices.html",
 		"oF": 0,
 		"oS": 0
 		},
@@ -7479,6 +7497,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/source\/scss\/includes\/_offices.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/build\/scss\/css\/_offices.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/source\/scss\/includes\/_portfolio.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -7567,7 +7598,7 @@
 	"displayValue": "Kaleva",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "\/apple-touch-icon.png",
-	"lastBuiltDate": 531840296
+	"lastBuiltDate": 537668783
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
