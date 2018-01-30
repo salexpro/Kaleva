@@ -1,18 +1,11 @@
--
-    var banner = 1;
-    var page = 'reviews';
-    var header = 'ОТЗЫВЫ КЛИЕНТОВ';
-    var descr = '«Ваше мнение важно для нас!»';
-    var button = 'Оставить отзыв'
-doctype html
-html(lang="ru")
-    include includes/_head
-    body
-        main.wrap
-            include includes/_header
-            include includes/_nav
-            include includes/_banner
-            include includes/_reviews_people
-            include includes/_contact
-            include includes/_services
-            include includes/_footer
+extends layout    
+block content
+    -
+        var banner = true;
+        var page = 'reviews';
+        var header = 'ОТЗЫВЫ КЛИЕНТОВ';
+        var descr = '«Ваше мнение важно для нас!»';
+        var button = 'Оставить отзыв'
+    include includes/_banner
+    include includes/_reviews_people
+    include includes/_contact

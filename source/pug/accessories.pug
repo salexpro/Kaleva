@@ -1,15 +1,8 @@
--
-    var page   = 'accessories';
-    var header = 'АКСЕССУАРЫ ДЛЯ<br>ПЛАСТИКОВЫХ ОКОН';
-    var descr  = '<ul class="menu vertical banner_list"><li>При монтаже пластикового окна как правило требуется<br>установка подоконников, откосов и отливов.</li><li>Жалюзи и москитные сетки — также важнейший<br>сопутствующий элемент оконных систем.</li><li>В данном разделе Вы сможете поподробнее узнать об этих<br>аксессуарах для пластиковых окон и не только о них</li></ul>';
-doctype html
-html(lang="ru")
-    include includes/_head
-    body
-        main.wrap
-            include includes/_header
-            include includes/_nav
-            include includes/_banner
-            include includes/_accessories
-            include includes/_services
-            include includes/_footer
+extends layout
+block content
+    -
+        var page   = 'accessories';
+        var header = 'АКСЕССУАРЫ ДЛЯ<br>ПЛАСТИКОВЫХ ОКОН';
+        var descr  = '<ul class="menu vertical banner_list"><li>При монтаже пластикового окна как правило требуется<br>установка подоконников, откосов и отливов.</li><li>Жалюзи и москитные сетки — также важнейший<br>сопутствующий элемент оконных систем.</li><li>В данном разделе Вы сможете поподробнее узнать об этих<br>аксессуарах для пластиковых окон и не только о них</li></ul>';
+    include includes/_banner
+    include includes/_accessories
