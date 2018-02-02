@@ -11,14 +11,25 @@
         justify-content: center;
         position: relative;
         overflow: hidden;
+        @include breakpoint(small down) {
+            width: 50%;
+            padding: calc(25% / 1.122) 0;
+        }
         &:nth-last-child(2){
             justify-content: flex-start;
         }
         &--tall{
             padding: calc(25% / 1.122) 0;
             margin-bottom: -25%;
+            @include breakpoint(small down) {
+                // padding: calc(50% / 1.122) 0;
+                margin-bottom: 0;
+            }
             img{
                 min-height: calc(50vw / 1.122);
+                @include breakpoint(small down) {
+                    min-height: calc(50vw / 1.122);
+                }
             }
         }
         &--header{
@@ -28,15 +39,28 @@
             font-weight: 700;
             text-align: center;
             line-height: 1.1;
+            @include breakpoint(medium down) {
+                font-size: 30px;
+            }
+            @include breakpoint(small down) {
+                font-size: 24px;
+            }
             img{
                 width: 105px;
                 margin-bottom: 24px;
+                @include breakpoint(medium down) {
+                    width: 85px;
+                    margin-bottom: 15px;
+                }
             }
         }
         &--large{
             width: 50%;
             img{
                 max-width: 100%;
+                @include breakpoint(small down) {
+                    max-width: none
+                }
             }
         }
         &_img{
@@ -44,6 +68,9 @@
             width: 100vw;
             min-height: calc(25vw / 1.122);
             max-height: 100%;
+            @include breakpoint(small down) {
+                min-height: calc(50vw / 1.122);
+            }
         }
     }
 }

@@ -1,15 +1,27 @@
 .header{
     height: 60px;
     background-color: $light-gray;
+    @include breakpoint(medium down) {
+        height: 56px;
+    }
+    @include breakpoint(small down){
+        display: none;
+    }
     &_inner{
         align-items: center;
         font-weight: 700;
         color: $dark-gray;
         height: 100%;
+        @include breakpoint(medium down){
+            font-size: 12px;
+        }
         img{
             height: 17px;
             margin-right: 10px;
             vertical-align: sub;
+            @include breakpoint(medium down){
+                vertical-align: bottom;
+            }
         }
         a{
             color: $dark-gray;
@@ -17,8 +29,28 @@
                 text-decoration: underline;
             }
         }
+        span{
+            @include breakpoint(medium down){
+                display: block;
+            }
+        }
+    }
+    &_col{
+        display: flex;
+        align-items: center;
     }
     &_social{
+        padding-left: 0;
+        .menu{
+            float: right;
+        }
+        li{
+            &:first-child{
+                a{
+                    margin-left: 0;
+                }
+            }
+        }
         a{
             padding: 0;
             max-width: 20px;
@@ -27,6 +59,10 @@
             align-items: center;
             margin-left: 20px;
             transition: 300ms;
+            @include breakpoint(medium down){
+                height: 16px;
+                margin-left: 16px;
+            }
             &:hover{
                 opacity: .7;
             }

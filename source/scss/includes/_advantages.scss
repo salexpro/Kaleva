@@ -1,30 +1,56 @@
 .advantages{
     background-color: $light-gray;
+    padding: 0 15px;
     padding-top: 70px;
     padding-bottom: 55px;
     border-bottom: 1px solid $medium-gray;
+    @include breakpoint(medium down) {
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
     &_header{
         text-align: center;
-        padding: 0 15px;
         color: $third-color;
         font-size: 30px;
         font-weight: 700;
         text-transform: uppercase;
         margin-bottom: 5px;
+        @include breakpoint(medium down) {
+            font-size: 24px;
+            margin: 0;
+        }
     }
     &_descr{
         font-weight: 500;
         color: $descr-gray;
-        padding: 0 15px;
         text-align: center;
         font-size: 16px;
         margin-bottom: 35px;
+        @include breakpoint(medium down) {
+            font-size: 14px;
+            margin: 0;
+        }
+    }
+    &_content{
+        @include breakpoint(medium down) {
+            max-width: 720px;
+        }
     }
     &_advantage{
         position: relative;
         text-align: center;
         padding-top: 15px;
         padding-bottom: 15px;
+        @include breakpoint(medium down) {
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-top: 80px;
+        }
+        @include breakpoint(small down) {
+            margin-top: 50px;
+        }
         &--numone{
             padding-top: 0;
             padding-bottom: 0;
@@ -166,6 +192,9 @@
             width: 2px;
             height: 100%;
             background-color: #a3c8ee;
+            @include breakpoint(medium down) {
+                display: none;
+            }
         }
         &::after{
             @extend .advantages_advantage::before;

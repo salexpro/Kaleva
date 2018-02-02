@@ -7,6 +7,12 @@
         left: 50%;
         bottom: 35px;
         transform: translateX(-50%);
+        @include breakpoint(medium down) {
+            bottom: 18px;
+        }
+        @include breakpoint(small down) {
+            bottom: 10px;
+        }
     }
     &-dot{
         width: 15px;
@@ -15,6 +21,10 @@
         border: 2px solid $primary-color;
         transition: 300ms;
         margin: 0 5px;
+        @include breakpoint(small down) {
+            width: 10px;
+            height: 10px;
+        }
         &.active{
             background-color: $primary-color;
         }
@@ -25,6 +35,13 @@
     &_item{
         height: 760px;
         background-size: cover;
+        background-position: center;
+        @include breakpoint(medium down){
+            height: 460px;
+        }
+        @include breakpoint(small down) {
+            height: 340px;
+        }
         &_content{
             display: flex;
             flex-direction: column;
@@ -33,14 +50,38 @@
             height: 100%;
             margin-left: 14%;
             padding: 0 55px;
+            @include breakpoint(medium down) {
+                width: 540px;
+                padding: 0 40px;
+                margin-left: 12%;
+            }
+            @include breakpoint(small down) {
+                width: 70%;
+                margin: 0;
+                padding: 0 5%;
+            }
             &--bg{
                 width: 575px;
                 background-color: rgba(#b4d5ff, .9);
+                @include breakpoint(medium down) {
+                    width: 420px;
+                }
+                @include breakpoint(small down) {
+                    width: 62%;
+                }
             }
         }
         &_logo{
             width: 375px;
             margin-bottom: 45px;
+            @include breakpoint(medium down){
+                width: 210px;
+                margin-bottom: 35px;
+            }
+            @include breakpoint(small down) {
+                width: 130px;
+                margin-bottom: 10px;
+            }
         }
         &_header{
             color: $secondary-color;
@@ -49,11 +90,26 @@
             text-transform: uppercase;
             line-height: 1.2;
             margin-bottom: 10px;
+            @include breakpoint(medium down) {
+                font-size: 32px;
+                margin-bottom: 15px;
+            }
+            @include breakpoint(small down) {
+                font-size: 22px;
+                margin-bottom: 5px;
+            }
             span{
                 display: block;
                 font-size: 36px;
                 font-weight: 500;
                 margin-bottom: 5px;
+                @include breakpoint(medium down) {
+                    font-size: 20px;
+                }
+                @include breakpoint(small down) {
+                    font-size: 15px;
+                    margin: 0;
+                }
             }
         }
         &_descr{
@@ -64,6 +120,16 @@
             position: relative;
             padding-top: 28px;
             line-height: 1.2;
+            @include breakpoint(medium down) {
+                padding-top: 20px;
+                font-size: 15px;
+                margin-bottom: 20px;
+            }
+            @include breakpoint(small down) {
+                padding-top: 0;
+                font-size: 13px;
+                margin-bottom: 10px;
+            }
             &::before{
                 content: '';
                 position: absolute;
@@ -72,10 +138,19 @@
                 width: 63px;
                 height: 2px;
                 background-color: $primary-color;
+                @include breakpoint(small down) {
+                    display: none;
+                }
             }
             b{
                 font-size: 24px;
                 color: $secondary-color;
+                @include breakpoint(medium down) {
+                    font-size: 18px;
+                }
+                @include breakpoint(small down) {
+                    font-size: 16px;
+                }
             }
             p{
                 font-size: 30px;
@@ -83,8 +158,21 @@
                 line-height: 1.2;
                 margin: 0;
                 margin-top: 20px;
+                @include breakpoint(medium down) {
+                    font-size: 24px;
+                    margin-top: 10px;
+                }
+                @include breakpoint(small down) {
+                    font-size: 16px;
+                }
                 b{
                     font-size: 36px;
+                    @include breakpoint(medium down) {
+                        font-size: 24px;
+                    }
+                    @include breakpoint(small down) {
+                        font-size: 18px;
+                    }
                 }
             }
         }

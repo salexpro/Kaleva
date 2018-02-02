@@ -3,6 +3,9 @@
     background-position: center bottom;
     background-size: cover;
     color: $white;
+    @include breakpoint(small down) {
+        background-position: left bottom;
+    }
     &--clear{
         background: $white;
         color: $black;
@@ -40,10 +43,20 @@
         }
     }
     &_inner{
-        width: 850px;
+        width: 100%;
+        max-width: 850px;
         margin: auto;
         background-color: rgba(#6a9cff, .8);
         padding: 80px 15px 90px;
+        @include breakpoint(medium down) {
+            width: 500px;
+            padding: 50px 15px;
+            margin-right: 13%;
+        }
+        @include breakpoint(small down) {
+            width: 100%;
+            padding: 20px 15px;
+        }
     }
     &_header{
         font-size: 30px;
@@ -51,6 +64,10 @@
         text-align: center;
         padding-bottom: 30px;
         position: relative;
+        @include breakpoint(medium down) {
+            font-size: 18px;
+            padding-bottom: 15px;
+        }
         &::after{
             content: '';
             position: absolute;
@@ -67,11 +84,19 @@
         text-align: center;
         margin-top: 30px;
         margin-bottom: 60px;
+        @include breakpoint(medium down) {
+            font-size: 14px;
+            margin-top: 15px;
+            margin-bottom: 20px;
+        }
     }
     &_form{
         width: 100%;
         max-width: 500px;
         margin: auto;
+        @include breakpoint(medium down) {
+            max-width: 400px;
+        }
         [type="text"],
         [type="email"],
         [type="tel"] {
@@ -93,5 +118,8 @@
         margin-top: 40px;
         font-size: 12px;
         text-align: center;
+        @include breakpoint(medium down) {
+            margin-top: 20px;
+        }
     }
 }

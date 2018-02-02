@@ -3,10 +3,11 @@
 @codekit-prepend '../../bower_components/foundation-sites/dist/js/plugins/foundation.core.min.js';
 @codekit-prepend '../../bower_components/foundation-sites/dist/js/plugins/foundation.util.mediaQuery.min.js';
 @codekit-prepend '../../bower_components/foundation-sites/dist/js/plugins/foundation.util.box.min.js';
+@codekit-prepend '../../bower_components/foundation-sites/dist/js/plugins/foundation.util.triggers.min.js';
+@codekit-prepend '../../bower_components/foundation-sites/dist/js/plugins/foundation.util.keyboard.min.js';
+@codekit-prepend '../../bower_components/foundation-sites/dist/js/plugins/foundation.offcanvas.min.js';
 @codekit-prepend '../../bower_components/owl.carousel/dist/owl.carousel.min.js';
 */
-
-$(document).foundation();
 
 $('.slider_inner').owlCarousel({
     items: 1
@@ -14,7 +15,23 @@ $('.slider_inner').owlCarousel({
 
 $('.prices_slider').owlCarousel({
     items: 3,
-    margin: 100
+    margin: 80,
+    responsive: {
+        0: {
+            items: 1
+        },
+        500: {
+            items: 2,
+            margin: 20
+        },
+        640: {
+            items: 3,
+            margin: 30
+        },
+        1024: {
+            margin: 80
+        }
+    }
 });
 
 $('.reviews_slider').owlCarousel({
@@ -25,9 +42,9 @@ function put_data(model){
     $('.prices_item_name span').text(model.name);
     $.each(model, function(key, val){
         if(typeof(val) === 'object'){
-            $('.prices_item_content--' + key + ' .prices_item_price s').text(val.old_price + ' руб.');
-            $('.prices_item_content--' + key + ' .prices_item_price b').text(val.price + ' руб.');
-            $('.prices_item_content--' + key + ' .prices_item_price span').text(val.action);
+            $('#old_price_' + key).text(val.old_price + ' руб.');
+            $('#price_' + key).text(val.price + ' руб.');
+            $('#offer_' + key).text(val.offer);
         }
     });
 }

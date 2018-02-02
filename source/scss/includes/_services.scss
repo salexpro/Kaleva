@@ -3,8 +3,13 @@
     flex-wrap: wrap;
     width: calc(100% + 4px);
     margin: -2px;
+    @include breakpoint(small down) {
+        width: 100%;
+        margin: 0;
+    }
     &_item{
-        height: 330px;
+        height: 24.6vw;
+        max-height: 330px;
         border: 2px solid $white;
         position: relative;
         overflow: hidden;
@@ -13,6 +18,10 @@
         justify-content: flex-end;
         padding-bottom: 15px;
         padding-right: 30px;
+        @include breakpoint(small down) {
+            border: 0;
+            height: 115px;
+        }
         &::before {
             content: '';
             position: absolute;
@@ -41,12 +50,18 @@
             }
             &-child(even) {
                 padding-right: 6%;
+                .services_item_title{
+                    text-align: right;
+                }
             }
         }
         &_title{
             font-size: 2.4vw;
             font-weight: 500;
             color: $white;
+            @include breakpoint(small down) {
+                font-size: 16px;
+            }
         }
         &_bg{
             position: absolute;

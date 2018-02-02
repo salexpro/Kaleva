@@ -1,37 +1,12 @@
 nav.nav
     .row.nav_inner
-        .column.large-2.nav_logo
+        .column.medium-2.nav_logo
             a(href="/")
                 img(src="../img/logo.svg", alt="")
         .column.nav_menu
-            ul.menu
-                li
-                    a(href="#")
-                        | ОКНА КАЛЕВА
-                li
-                    a(href="#")
-                        | ДВЕРИ
-                li
-                    a(href="#")
-                        | БАЛКОНЫ
-                li
-                    a(href="#")
-                        | КОТТЕДЖИ
-                li
-                    a(href="#")
-                        | АКЦИИ
-                li
-                    a(href="#")
-                        | ЦЕНЫ
-                li
-                    a(href="#")
-                        | УСЛУГИ
-                li
-                    a(href="./reviews.html")
-                        | ОТЗЫВЫ
-                li
-                    a(href="./contacts.html")
-                        | КОНТАКТЫ
-        .column.large-2.nav_call
+            button.hamb(data-toggle="menu" data-auto-focus="0")
+                span.hamb_inner
+            include _menu
+        .column.shrink.nav_call
             button.button.small.alert.button--red
                 | Обратный звонок

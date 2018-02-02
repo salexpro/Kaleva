@@ -4,11 +4,19 @@
     transition: 300ms;
     border: 1px solid #006cda;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    @include breakpoint(medium down) {
+        padding: 15px 40px;
+    }
     &.small{
         padding-top: 17px;
         padding-bottom: 17px;
         img{
             vertical-align: bottom;
+        }
+    }
+    &.large{
+        @include breakpoint(medium down) {
+            font-size: 16px;
         }
     }
     &.hollow{

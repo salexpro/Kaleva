@@ -1,12 +1,18 @@
 .scheme{
     background-color: #cadde8;
     padding-top: 40px;
+    @include breakpoint(small down) {
+        padding-top: 15px;
+    }
     &_header{
         color: $primary-color;
         font-size: 36px;
         font-weight: 700;
         text-align: center;
         padding: 0 15px;
+        @include breakpoint(small down) {
+            font-size: 24px;
+        }
     }
     &_descr{
         font-size: 20px;
@@ -15,6 +21,10 @@
         color: $dark-gray;
         padding: 0 15px;
         margin-bottom: 45px;
+        @include breakpoint(small down) {
+            font-size: 14px;
+            margin-bottom: 30px;
+        }
     }
     &_inner{
         width: 100%;
@@ -32,6 +42,10 @@
         position: relative;
         z-index: 1;
         margin-bottom: 40px;
+        @include breakpoint(small down) {
+            width: 50%;
+            margin-bottom: 30px;
+        }
         &::before{
             content: counter(scheme);
             position: absolute;
@@ -41,21 +55,33 @@
             font-weight: 700;
             color: $primary-color;
             z-index: -1;
+            @include breakpoint(small down) {
+                font-size: 36px;
+            }
         }
         &:nth{
             &-child(2) {
                 .scheme_item_img {
                     width: 135px;
+                    @include breakpoint(small down) {
+                        width: 75px;
+                    }
                 }
             }
             &-child(3) {
                 .scheme_item_img {
                     width: 155px;
+                    @include breakpoint(small down) {
+                        width: 85px;
+                    }
                 }
             }
             &-child(-n+3){
                 &::before{
                     top: -12px;
+                    @include breakpoint(small down) {
+                        top: 0;
+                    }
                 }
             }
         }
@@ -66,6 +92,10 @@
             display: flex;
             align-items: center;
             margin: auto;
+            @include breakpoint(small down) {
+                width: 65px;
+                height: 75px;
+            }
             img{
                 max-height: 100%;
             }
@@ -74,6 +104,10 @@
             color: $primary-color;
             font-size: 20px;
             margin-top: -10px;
+            @include breakpoint(small down) {
+                font-size: 16px;
+                margin: 0;
+            }
         }
     }
 }

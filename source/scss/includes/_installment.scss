@@ -7,11 +7,24 @@
     background-size: 40% auto;
     position: relative;
     z-index: 2;
+    @include breakpoint(medium down) {
+        padding: 70px 0;
+    }
+    @include breakpoint(small down) {
+        padding: 30px 0;
+        background: none;
+    }
     &_header{
         color: $third-color;
         font-size: 48px;
         font-weight: 700;
         margin-bottom: 15px;
+        @include breakpoint(medium down) {
+            font-size: 30px;
+        }
+        @include breakpoint(small down) {
+            font-size: 24px;
+        }
     }
     &_content{
         font-weight: 500;
@@ -19,6 +32,14 @@
         padding-top: 25px;
         position: relative;
         color: #575757;
+        @include breakpoint(medium down) {
+            font-size: 16px;
+            padding-top: 20px;
+        }
+        @include breakpoint(small down) {
+            padding-top: 0;
+            font-size: 14px;
+        }
         &::before{
             content: '';
             position: absolute;
@@ -27,14 +48,26 @@
             width: 100px;
             height: 1px;
             background-color: $third-color;
+            @include breakpoint(small down) {
+                display: none;
+            }   
         }
         b{
             color: $warning-color;
             font-size: 24px;
+            @include breakpoint(medium down) {
+                font-size: 18px;
+            }
+            @include breakpoint(small down) {
+                font-size: 16px;
+            }
         }
         .button{
             margin-top: 25px;
             display: table;
+            @include breakpoint(small down) {
+                margin-top: 15px;
+            }
         }
     }
 }
