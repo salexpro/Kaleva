@@ -1,11 +1,12 @@
-extends layout    
-block content
+extends layout
+block vars
     -
         var banner = true,
             page = 'reviews',
             header = 'ОТЗЫВЫ КЛИЕНТОВ',
             descr = '«Ваше мнение важно для нас!»',
             button = 'Оставить отзыв';
+block content
     include includes/_banner
     include includes/_reviews_people
     include includes/_contact

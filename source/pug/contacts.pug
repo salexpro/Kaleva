@@ -1,11 +1,12 @@
 extends layout
-block content
+block vars
     -
         var banner = 1,
-            page = 'reviews',
+            page = 'contacts',
             header = 'СВЯЖИТЕСЬ С НАМИ',
             descr = '«Мечтайте больше. Думайте иначе!»',
             button = 'Оставить заявку'
+block content
     include includes/_banner
     include includes/_offices
     include includes/_contact

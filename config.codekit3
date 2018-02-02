@@ -7610,6 +7610,16 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/source\/img\/promo\/contacts.jpg": {
+		"ft": 16384,
+		"iS": 855326,
+		"oA": 0,
+		"oAP": "\/build\/img\/promo\/contacts.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/source\/img\/promo\/manufacture.jpg": {
 		"ft": 16384,
 		"iS": 5808618,
