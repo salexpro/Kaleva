@@ -96,12 +96,27 @@
     padding-bottom: 40px;
     padding-top: 45px;
     background-color: #f6f7fc;
+    @include breakpoint(medium down) {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    @include breakpoint(small down) {
+        padding-top: 20px;
+        padding-bottom: 16px;
+    }
     &_header{
         font-size: 30px;
         text-align: center;
         font-weight: 500;
         color: $primary-color;
         margin-bottom: 40px;
+        @include breakpoint(medium down) {
+            margin-bottom: 35px;
+        }
+        @include breakpoint(small down) {
+            font-size: 22px;
+            margin-bottom: 15px;
+        }
         span{
             color: $secondary-color;
         }
@@ -111,6 +126,9 @@
         color: $primary-color;
         font-weight: 500;
         margin-bottom: 55px;
+        @include breakpoint(medium down) {
+            margin-bottom: 45px;
+        }
         &_img{
             width: 136px;
             height: 136px;
@@ -141,6 +159,13 @@
         display: table;
         margin: auto;
         margin-top: 25px;
+        @include breakpoint(medium down) {
+            margin-top: 15px;
+        }
+        @include breakpoint(small down) {
+            font-size: 18px;
+            margin-top: 0;
+        }
         &:after{
             content: '';
             display: block;
@@ -150,6 +175,11 @@
             background-size: contain;
             margin: auto;
             margin-top: 15px;
+            @include breakpoint(small down) {
+                width: 15px;
+                height: 15px;
+                margin-top: 10px;
+            }
         }
     }
 }

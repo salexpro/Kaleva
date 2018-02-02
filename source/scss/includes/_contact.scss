@@ -12,6 +12,9 @@
         .contact{
             &_inner{
                 background: none;
+                @include breakpoint(medium down) {
+                    margin: auto;
+                }
             }
             &_header{
                 font-weight: 500;

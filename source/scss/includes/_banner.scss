@@ -27,6 +27,10 @@
         z-index: 1;
         @include breakpoint(medium down) {
             padding: 0;
+            height: 455px;
+        }
+        @include breakpoint(small down) {
+            height: 260px;
         }
         &::after{
             background: rgba($white, .7);
@@ -35,13 +39,28 @@
             &_header{
                 font-size: 60px;
                 margin-bottom: 22px;
+                @include breakpoint(small down) {
+                    font-size: 30px;
+                    margin-bottom: 10px;
+                }
             }
             &_descr{
                 margin-bottom: 33px;
                 font-size: 24px;
                 padding-top: 34px;
+                @include breakpoint(small down) {
+                    font-size: 18px;
+                    padding-top: 15px;
+                    margin-bottom: 15px;
+                }
                 &::before{
                     left: calc(50% - 31px);
+                    @include breakpoint(medium down) {
+                        display: block;
+                    }
+                    @include breakpoint(small down) {
+                        height: 1px;
+                    }
                 }
             }
         }
@@ -66,6 +85,10 @@
         width: 256px;
         margin: auto;
         margin-bottom: 30px;
+        @include breakpoint(small down) {
+            width: 120px;
+            margin-bottom: 15px;
+        }
     }
     &_header{
         color: $secondary-color;
