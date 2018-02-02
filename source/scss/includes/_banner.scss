@@ -4,7 +4,11 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    @include breakpoint(medium down) {
+        padding-left: 12%;
+    }
     @include breakpoint(small down) {
+        padding: 0;
         height: auto;
     }
     &::after{
@@ -21,6 +25,9 @@
         text-align: center;
         box-shadow: 1px 2px 9px rgba(0, 0, 0, 0.3);
         z-index: 1;
+        @include breakpoint(medium down) {
+            padding: 0;
+        }
         &::after{
             background: rgba($white, .7);
         }
@@ -39,7 +46,7 @@
             }
         }
     }
-    $banners: accessories, manufacture, reviews;
+    $banners: accessories, manufacture, reviews, contacts;
     @each $banner in $banners{
         &--#{$banner}{
             background-image: url(../img/promo/#{$banner}.jpg)
@@ -50,11 +57,7 @@
         height: 100%;
         align-items: center;
         z-index: 2;
-        @include breakpoint(medium down) {
-            margin-left: 12%;
-        }
         @include breakpoint(small down) {
-            margin: 0;
             padding: 15px 0;
             min-height: 240px;
         }
@@ -99,6 +102,12 @@
         span{
             color: $secondary-color;
             font-size: 24px;
+            @include breakpoint(medium down) {
+                font-size: 20px;
+            }
+            @include breakpoint(small down) {
+                font-size: 16px;
+            }
         }
     }
     &_list{

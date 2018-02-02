@@ -146,11 +146,20 @@
                 position: absolute;
                 top: 50%;
                 left: auto;
-                right: 14%;
-                transform: translateY(-50%);
+                right: calc(50% - 32px);
+                transform: translate(50%, -50%);
                 width: 275px;
                 height: 275px;
                 background-color: rgba($white, .8);
+                @include breakpoint(medium down) {
+                    right: calc(50% - 20px);
+                    transform: scale(.62) translate(50%, -50%);
+                    transform-origin: top right;
+                }
+                @include breakpoint(small down) {
+                    right: 50%;
+                    transform: scale(.55) translate(50%, -50%);
+                }
                 &::before{
                     width: 66px;
                     height: 66px;

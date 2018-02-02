@@ -4,12 +4,23 @@
     padding-top: 60px;
     padding-bottom: 50px;
     z-index: 2;
+    @include breakpoint(medium down) {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    @include breakpoint(small down) {
+        padding-top: 20px;
+        padding-bottom: 15px;
+    }
     &_header{
         padding: 0 15px;
         color: $primary-color;
         font-size: 36px;
         font-weight: 500;
         text-align: center;
+        @include breakpoint(small down) {
+            font-size: 22px;
+        }
     }
     &_descr{
         color: $primary-color;
@@ -17,20 +28,48 @@
         font-weight: 500;
         padding: 0 15px;
         text-align: center;
+        @include breakpoint(small down) {
+            font-size: 14px;
+        }
     }
     &_item{
         padding: 50px 0;
         display: flex;
         align-items: center;
+        @include breakpoint(medium down) {
+            padding: 32px 0;
+        }
+        @include breakpoint(small down) {
+            flex-direction: column-reverse;
+            padding: 17px 0;
+        }
         &:nth-child(even){
             flex-direction: row-reverse;
+            @include breakpoint(small down) {
+                flex-direction: column-reverse;
+            }
             .manufacture_item{
                 &_img {
                     margin: 0;
                     margin-right: -64px;
+                    @include breakpoint(medium down) {
+                        margin-right: -40px;
+                    }
+                    @include breakpoint(small down) {
+                        margin: 0;
+                    }
                     .advantages_advantage_content--manufacture{
-                        right: auto;
-                        left: 14%;
+                        left: calc(50% - 32px);
+                        transform: translate(-50%, -50%);
+                        @include breakpoint(medium down) {
+                            left: calc(50% - 20px);
+                            transform: scale(.6) translate(-50%, -50%);
+                            transform-origin: top left;
+                        }
+                        @include breakpoint(small down) {
+                            left: 50%;
+                            transform: scale(.55) translate(-50%, -50%);
+                        }
                     }
                 }
                 &_content{
@@ -47,8 +86,24 @@
             justify-content: center;
             margin-left: -64px;
             position: relative;
+            @include breakpoint(medium down) {
+                width: 295px;
+                height: 280px;
+                flex: 1 0 295px;
+                margin-left: -40px;
+            }
+            @include breakpoint(small down) {
+                margin: 0;
+                flex: 1 0 220px;
+                height: 230px;
+                width: auto;
+                max-width: 280px;
+            }   
             img{
                 max-width: none;
+                @include breakpoint(medium down) {
+                    height: 100%;
+                }
             }
         }
         &_content{
@@ -61,14 +116,30 @@
             font-weight: 500;
             text-align: right;
             z-index: 2;
+            @include breakpoint(medium down) {
+                padding: 10px 15px;
+                font-size: 12px;
+            }
+            @include breakpoint(small down) {
+                text-align: center;
+            }
         }
         &_header{
             font-size: 28px;
             margin-bottom: 7px;
+            @include breakpoint(medium down) {
+                font-size: 20px;
+            }
+            @include breakpoint(small down) {
+                font-size: 18px;
+            }
         }
         &_text{
             &--large{
                 font-size: 18px;
+                @include breakpoint(medium down) {
+                    font-size: 14px;
+                }
             }
         }
     }
