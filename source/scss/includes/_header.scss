@@ -5,7 +5,7 @@
         height: 56px;
     }
     @include breakpoint(small down){
-        display: none;
+        // display: none;
     }
     &_inner{
         align-items: center;
@@ -14,6 +14,9 @@
         height: 100%;
         @include breakpoint(medium down){
             font-size: 12px;
+        }
+        @include breakpoint(small down) {
+            justify-content: space-around;
         }
         img{
             height: 17px;
@@ -38,13 +41,26 @@
     &_col{
         display: flex;
         align-items: center;
+        @include breakpoint(small down) {
+            font-size: 14px;
+            &:nth-child(2){
+                display: none;
+            }
+        }
+    }
+    &_phone{
+        font-size: 18px;
+        img{
+            vertical-align: middle;
+        }
+        @include breakpoint(small down) {
+            flex: 0 0 auto;
+        }
     }
     &_social{
-        padding-left: 0;
-        .menu{
-            float: right;
-        }
-        li{
+        padding-left: 60px;
+        .menu li {
+            margin-bottom: 0;
             &:first-child{
                 a{
                     margin-left: 0;

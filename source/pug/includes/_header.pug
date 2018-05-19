@@ -2,12 +2,6 @@ header.header
     .row.header_inner
         .column.shrink.header_col
             .header_col_img
-                img(src="./img/phone.png", alt="Телефон:")
-            .header_col_content
-                a(href="tel:+74993229772")
-                    | +7 (499) 322-97-72
-        .column.shrink.header_col
-            .header_col_img
                 img(src="./img/mail.png", alt="Почта:")
             .header_col_content
                 a(href="mailto:kaleva@okna-hit.ru")
@@ -21,7 +15,7 @@ header.header
                 span Пн-пт. 10.00 — 19.00;
                 | 
                 span Сб. 10.00 — 18.00
-        .column.align-right.header_social
+        //- .column.align-right.header_social
             ul.menu
                 li
                     a(href="#")
@@ -35,3 +29,9 @@ header.header
                 li
                     a(href="#")
                         img(src="../img/social/vk.png", alt="")
+        .column.align-right.header_col.header_phone
+            .header_col_img
+                img(src="./img/phone.png", alt="Телефон:")
+            .header_col_content
+                a(href="tel:+74993229772")
+                    | +7 (499) 322-97-72
